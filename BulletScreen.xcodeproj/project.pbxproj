@@ -14,9 +14,9 @@
 		8BB1A7111B7F49E7001A0600 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB1A7101B7F49E7001A0600 /* Images.xcassets */; };
 		8BB1A7141B7F49E7001A0600 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB1A7121B7F49E7001A0600 /* LaunchScreen.xib */; };
 		8BB1A7201B7F49E7001A0600 /* BulletScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A71F1B7F49E7001A0600 /* BulletScreenTests.m */; };
-		8BB1A7331B7F4ADA001A0600 /* BulletLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A72E1B7F4ADA001A0600 /* BulletLabel.m */; };
-		8BB1A7341B7F4ADA001A0600 /* BulletScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A7301B7F4ADA001A0600 /* BulletScreenView.m */; };
-		8BB1A7351B7F4ADA001A0600 /* BulletString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A7321B7F4ADA001A0600 /* BulletString.m */; };
+		8BB1A73C1B7F503D001A0600 /* BulletLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A7371B7F503D001A0600 /* BulletLabel.m */; };
+		8BB1A73D1B7F503D001A0600 /* BulletScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A7391B7F503D001A0600 /* BulletScreenView.m */; };
+		8BB1A73E1B7F503D001A0600 /* BulletString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A73B1B7F503D001A0600 /* BulletString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +43,12 @@
 		8BB1A7191B7F49E7001A0600 /* BulletScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulletScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB1A71E1B7F49E7001A0600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB1A71F1B7F49E7001A0600 /* BulletScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletScreenTests.m; sourceTree = "<group>"; };
-		8BB1A72D1B7F4ADA001A0600 /* BulletLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletLabel.h; path = BulletScrrenView/BulletLabel.h; sourceTree = "<group>"; };
-		8BB1A72E1B7F4ADA001A0600 /* BulletLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BulletLabel.m; path = BulletScrrenView/BulletLabel.m; sourceTree = "<group>"; };
-		8BB1A72F1B7F4ADA001A0600 /* BulletScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletScreenView.h; path = BulletScrrenView/BulletScreenView.h; sourceTree = "<group>"; };
-		8BB1A7301B7F4ADA001A0600 /* BulletScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BulletScreenView.m; path = BulletScrrenView/BulletScreenView.m; sourceTree = "<group>"; };
-		8BB1A7311B7F4ADA001A0600 /* BulletString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletString.h; path = BulletScrrenView/BulletString.h; sourceTree = "<group>"; };
-		8BB1A7321B7F4ADA001A0600 /* BulletString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BulletString.m; path = BulletScrrenView/BulletString.m; sourceTree = "<group>"; };
+		8BB1A7361B7F503D001A0600 /* BulletLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletLabel.h; path = BulletScreenView/BulletLabel.h; sourceTree = "<group>"; };
+		8BB1A7371B7F503D001A0600 /* BulletLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BulletLabel.m; path = BulletScreenView/BulletLabel.m; sourceTree = "<group>"; };
+		8BB1A7381B7F503D001A0600 /* BulletScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletScreenView.h; path = BulletScreenView/BulletScreenView.h; sourceTree = "<group>"; };
+		8BB1A7391B7F503D001A0600 /* BulletScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BulletScreenView.m; path = BulletScreenView/BulletScreenView.m; sourceTree = "<group>"; };
+		8BB1A73A1B7F503D001A0600 /* BulletString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletString.h; path = BulletScreenView/BulletString.h; sourceTree = "<group>"; };
+		8BB1A73B1B7F503D001A0600 /* BulletString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BulletString.m; path = BulletScreenView/BulletString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,12 +132,12 @@
 		8BB1A72C1B7F4AA0001A0600 /* BulletScreenView */ = {
 			isa = PBXGroup;
 			children = (
-				8BB1A72D1B7F4ADA001A0600 /* BulletLabel.h */,
-				8BB1A72E1B7F4ADA001A0600 /* BulletLabel.m */,
-				8BB1A72F1B7F4ADA001A0600 /* BulletScreenView.h */,
-				8BB1A7301B7F4ADA001A0600 /* BulletScreenView.m */,
-				8BB1A7311B7F4ADA001A0600 /* BulletString.h */,
-				8BB1A7321B7F4ADA001A0600 /* BulletString.m */,
+				8BB1A7361B7F503D001A0600 /* BulletLabel.h */,
+				8BB1A7371B7F503D001A0600 /* BulletLabel.m */,
+				8BB1A7381B7F503D001A0600 /* BulletScreenView.h */,
+				8BB1A7391B7F503D001A0600 /* BulletScreenView.m */,
+				8BB1A73A1B7F503D001A0600 /* BulletString.h */,
+				8BB1A73B1B7F503D001A0600 /* BulletString.m */,
 			);
 			name = BulletScreenView;
 			sourceTree = "<group>";
@@ -242,9 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB1A7341B7F4ADA001A0600 /* BulletScreenView.m in Sources */,
-				8BB1A7331B7F4ADA001A0600 /* BulletLabel.m in Sources */,
-				8BB1A7351B7F4ADA001A0600 /* BulletString.m in Sources */,
+				8BB1A73D1B7F503D001A0600 /* BulletScreenView.m in Sources */,
+				8BB1A73C1B7F503D001A0600 /* BulletLabel.m in Sources */,
+				8BB1A73E1B7F503D001A0600 /* BulletString.m in Sources */,
 				8BB1A70C1B7F49E7001A0600 /* ViewController.m in Sources */,
 				8BB1A7091B7F49E7001A0600 /* AppDelegate.m in Sources */,
 				8BB1A7061B7F49E7001A0600 /* main.m in Sources */,
