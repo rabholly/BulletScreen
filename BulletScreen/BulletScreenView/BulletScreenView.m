@@ -83,12 +83,12 @@ long long const BulletScreenClearTime = 300;
 }
 
 //生成弹幕初始垂直方向位置
-- (CGFloat)getRandomNumber {
+- (CGFloat)produceRandomNumber {
 	return _topLimit + arc4random() % (_bottomLimit - _topLimit + 1);
 }
 
 //生成弹幕速度
-- (CGFloat)getRandomSpeed {
+- (CGFloat)produceRandomSpeed {
 	CGFloat speed = _minSpeed + arc4random() % 100 / 100.0 * (_maxSpeed - _minSpeed);
 	NSLog(@"speed is %f", speed);
 	return speed;
@@ -187,10 +187,10 @@ long long const BulletScreenClearTime = 300;
 	
 	NSDictionary *tdic = [NSDictionary dictionaryWithObjectsAndKeys:label.font,NSFontAttributeName,nil];
 	CGSize size = [content boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, 20.0f) options:NSStringDrawingUsesLineFragmentOrigin attributes:tdic context:nil].size;
-	label.frame = CGRectMake(self.frame.size.width, [self getRandomNumber], size.width, 20);
+	label.frame = CGRectMake(self.frame.size.width, [self produceRandomNumber], size.width, 20);
 	label.textColor = color;
 	label.text = content;
-	label.speed = [self getRandomSpeed];
+	label.speed = [self produceRandomNumber];
 	[busyLabelArray addObject:label];
 }
 @end
